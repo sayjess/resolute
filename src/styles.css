@@ -2,7 +2,7 @@
     --black: #150605;
     --red: #EA453C;
     --pink: #F47B6E;
-    --light-blue: #EFFBFE;
+    --light-blue: #022128;
     --blue: #ACE6EC;
 }
 
@@ -10,6 +10,10 @@ html, body {
     font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.cart-logo:hover {
+    color: white !important;
 }
 
 main.photos {
@@ -135,3 +139,4 @@ a {
 a:visited { color: var(--light-blue); }
 a:hover { color: var(--light-blue); }
 a:active { color: var(--light-blue); }
+h2:hover {color: white};
